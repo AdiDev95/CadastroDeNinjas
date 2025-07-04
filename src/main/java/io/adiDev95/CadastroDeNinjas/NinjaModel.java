@@ -11,10 +11,10 @@ public class NinjaModel {
 
     @Id
     @GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY) // Gera o ID automaticamente
-    long id; // Atributo id para identificar o ninja
-    String nome;
-    String email;
-    int idade;
+    private long id; // Atributo id para identificar o ninja
+    private String nome;
+    private String email;
+    private int idade;
 
     public NinjaModel() { // no-args contructor é um construtor vazio!
     }
